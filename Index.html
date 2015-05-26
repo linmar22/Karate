@@ -2,7 +2,12 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href="Images/Icons/icon-114x114.png" sizes="114x114" />
+    <link href="Images/Icons/icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+    <link href="Images/Icons/icon-57x57.png" rel="apple-touch-icon-precomposed" />
+    <link href="Images/Icons/icon-57x57.png" rel="shortcut icon" />
 
     <link type="text/css" rel="stylesheet" href="Styles/Reset.css">
     <link type="text/css" rel="stylesheet" href="Styles/bootstrap.css">
@@ -12,31 +17,33 @@
 </head>
 <body>
 <div id="header"></div>
-<div id="content" class="container">
-    <div id="content_left_wrapper" class="col-lg-5 col-md-5 col-sm-12">
+<div id="content" class="container-fluid">
+    <div id="content_left_wrapper" class="col-lg-5 col-md-12 col-sm-12">
         <div id="content_left">
-            <img id="girl_1" class="girl_image" src="Images/left1.png"/>
-            <img id="girl_2" class="girl_image" src="Images/left2.png"/>
-            <img id="girl_3" class="girl_image" src="Images/left3.png"/>
+            <img id="girl_1" class="girl_image" src="Images/2girl.png"/>
+            <img id="girl_2" class="girl_image" src="Images/1girl.png"/>
+            <img id="girl_3" class="girl_image" src="Images/3girl.png"/>
         </div>
     </div>
-    <div id="content_center" class="col-lg-2 col-md-2 col-sm-12">
-        <div id="content_center_wrapper">
+    <div id="content_center" class="col-lg-2 col-md-12 col-sm-12">
+        <div id="content_center_wrapper" class="link">
             <img id="logo" class="center_image" src="Images/gojulogo.png"/>
         </div>
     </div>
-    <div id="content_right_wrapper" class="col-lg-5 col-md-5 col-sm-12">
-        <div id=content_right">
-            <img id="girl_4" class="girl_image" src="Images/right1.png"/>
-            <img id="girl_5" class="girl_image" src="Images/right2.png"/>
-            <img id="girl_6" class="girl_image" src="Images/right3.png"/>
+    <div id="content_right_wrapper" class="col-lg-5 col-md-12 col-sm-12">
+        <div id="content_right">
+            <img id="girl_4" class="girl_image" src="Images/7girl.png"/>
+            <img id="girl_5" class="girl_image" src="Images/6girl.png"/>
+            <img id="girl_6" class="girl_image" src="Images/4girl.png"/>
         </div>
     </div>
     <div id="content_text" class="col-lg-12">
         <h1 id="text_1">Rise Towards the Sun</h1>
-        <h1 id="text_2">Dyssengard Karate Klub</h1>
+        <h1 id="text_2" class="link">Dyssengard Karate Klub</h1>
     </div>
 </div>
 <div id="footer"></div>
+<script type="text/javascript" src="Scripts/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="Scripts/Index.js"></script>
 </body>
 </html>
