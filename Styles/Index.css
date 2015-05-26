@@ -636,20 +636,8 @@ h1 {
         margin:auto;
     }
 
-    #girl_3 {
-
-    }
-
-    #girl_4 {
-
-    }
-
     #girl_5 {
         margin:0;
-    }
-
-    #girl_6 {
-
     }
 
     h1 {
@@ -686,8 +674,4 @@ h1 {
     #text_2 {
         margin-top:-150px;
     }
-}
-
-@media (min-width: 1680px) {
-
 }
