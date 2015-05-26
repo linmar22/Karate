@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Konfuciuz';
-    src:url('../Fonts/Konfuciuz.eot');
-    src:url('../Fonts/Konfuciuz.eot?#iefix') format('embeded-opentype'),
+    src: url('../Fonts/Konfuciuz.eot');
+    src: url('../Fonts/Konfuciuz.eot?#iefix') format('embeded-opentype'),
     url('../Fonts/Konfuciuz.woff') format('woff'),
     url('../Fonts/Konfuciuz.ttf') format('truetype'),
     url('../Fonts/Konfuciuz.svg#1942_report1942_report') format('svg');
@@ -19,7 +19,7 @@ body {
 }
 
 #header {
-    z-index:1001;
+    z-index: 1001;
     height: 30px;
     width: 100%;
     background-color: black;
@@ -82,7 +82,42 @@ body {
     width: 134px;
     height: 130px;
     margin: 0 auto 35px;
+    position: relative;
+}
 
+h2 {
+    position: absolute;
+    color: white;
+    font-family: 'Konfuciuz', serif;
+    width: 100%;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 0;
+    opacity: 0;
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.intro {
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    -webkit-animation-delay: 11s;
+    -moz-animation-delay: 11s;
+    -ms-animation-delay: 11s;
+    -o-animation-delay: 11s;
+    animation-delay: 11s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 #logo {
@@ -90,10 +125,9 @@ body {
     display: block;
     height: 130px;
     opacity: 0;
-
 }
 
-.link{
+.link {
     cursor: pointer;
 }
 
@@ -106,12 +140,12 @@ body {
     animation-duration: 500ms;
 }
 
-#content_center_wrapper:hover img {
+#content_center_wrapper:hover #logo {
     opacity: 1;
-    -webkit-animation: fadein 500ms; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 500ms; /* Firefox < 16 */
-    -ms-animation: fadein 500ms; /* Internet Explorer */
-    -o-animation: fadein 500ms; /* Opera < 12.1 */
+    -webkit-animation: fadein 500ms;
+    -moz-animation: fadein 500ms;
+    -ms-animation: fadein 500ms;
+    -o-animation: fadein 500ms;
     animation: fadein 500ms;
 }
 
@@ -230,7 +264,7 @@ h1 {
 }
 
 #text_2 {
-    margin-top:-150px;
+    margin-top: -150px;
     opacity: 0;
     -webkit-animation: fadein 2s;
     -moz-animation: fadein 2s;
@@ -255,7 +289,7 @@ h1 {
 }
 
 #footer {
-    z-index:1001;
+    z-index: 1001;
     height: 50px;
     width: 100%;
     position: absolute;
@@ -402,19 +436,19 @@ h1 {
 @media (min-width: 319px) {
 
     #content_left_wrapper {
-        visibility:hidden;
-        height:1px;
+        visibility: hidden;
+        height: 1px;
     }
 
     #content_right_wrapper {
-        visibility:hidden;
-        height:1px;
+        visibility: hidden;
+        height: 1px;
     }
 
     #content_center {
         height: 250px;
-        margin-bottom:0;
-        z-index:1000;
+        margin-bottom: 0;
+        z-index: 1000;
 
         -webkit-animation-delay: 0s;
         -moz-animation-delay: 0s;
@@ -433,13 +467,13 @@ h1 {
 
         -webkit-animation-delay: 3s, 6s;
         -moz-animation-delay: 3s, 6s;
-        -ms-animation-delay: 3s,6s;
+        -ms-animation-delay: 3s, 6s;
         -o-animation-delay: 3s, 6s;
         animation-delay: 3s, 6s;
     }
 
     #text_2 {
-        margin-top:-60px;
+        margin-top: -60px;
         font-size: 20pt;
 
         -webkit-animation-delay: 7s;
@@ -454,11 +488,10 @@ h1 {
     #content_center {
         height: 350px;
 
-
     }
 
     #text_2 {
-        margin-top:-60px;
+        margin-top: -60px;
     }
 
 }
@@ -467,45 +500,46 @@ h1 {
 
     #content_left_wrapper {
         visibility: visible;
-        height:300px;
+        height: 300px;
     }
 
-    #content_left{
+    #content_left {
         justify-content: center;
         -webkit-justify-content: center;
     }
 
-    #content_right{
+    #content_right {
         justify-content: center;
         -webkit-justify-content: center;
     }
 
-    #content_right img{
-        height:230px;
+    #content_right img {
+        height: 230px;
     }
 
     #content_right_wrapper {
         visibility: visible;
-        height:200px;
+        height: 200px;
         position: absolute;
         bottom: 120px;
         left: 0;
         right: 0;
     }
 
-    #girl_2{
+    #girl_2 {
         margin-left: -130px;
         margin-right: -75px;
         z-index: 3;
     }
 
-    #girl_4{
-        z-index:3;
+    #girl_4 {
+        z-index: 3;
     }
-    #girl_5{
+
+    #girl_5 {
         margin-left: -80px;
         margin-right: -80px;
-        z-index:2;
+        z-index: 2;
     }
 
     #content_center {
@@ -522,7 +556,7 @@ h1 {
         line-height: 80px;
     }
 
-    #text_1{
+    #text_1 {
         font-size: 45pt;
 
         -webkit-animation-delay: 6s, 9s;
@@ -531,8 +565,9 @@ h1 {
         -o-animation-delay: 6s, 9s;
         animation-delay: 6s, 9s;
     }
-    #text_2{
-        margin-top:-110px;
+
+    #text_2 {
+        margin-top: -110px;
         font-size: 45pt;
 
         -webkit-animation-delay: 10s;
@@ -543,21 +578,21 @@ h1 {
     }
 }
 
-@media (min-width: 799px){
+@media (min-width: 799px) {
     #content_left_wrapper {
-        height:320px;
+        height: 320px;
     }
 
     #content_center {
         height: 310px;
     }
 
-    #content_left img{
+    #content_left img {
         height: 250px;
     }
 
-    #content_right img{
-        height:300px;
+    #content_right img {
+        height: 300px;
     }
 }
 
@@ -570,8 +605,8 @@ h1 {
         height: 50vh;
     }
 
-    #content_left_wrapper img{
-        height:200px;
+    #content_left_wrapper img {
+        height: 200px;
     }
 
     #content_left {
@@ -599,17 +634,17 @@ h1 {
     }
 
     #content_right_wrapper {
-        position:relative;
-        bottom:auto;
-        left:auto;
+        position: relative;
+        bottom: auto;
+        left: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         height: 50vh;
     }
 
-    #content_right_wrapper img{
-        height:200px;
+    #content_right_wrapper img {
+        height: 200px;
     }
 
     #content_right {
@@ -633,11 +668,11 @@ h1 {
     }
 
     #girl_2 {
-        margin:auto;
+        margin: auto;
     }
 
     #girl_5 {
-        margin:0;
+        margin: 0;
     }
 
     h1 {
@@ -672,6 +707,6 @@ h1 {
     }
 
     #text_2 {
-        margin-top:-150px;
+        margin-top: -150px;
     }
 }
