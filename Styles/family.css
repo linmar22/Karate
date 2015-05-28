@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+/* ================================================== */
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+}
+
+#top_black {
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom:10px;
+}
+
+#nav_holder {
+    font-size:26pt;
+    font-family: 'Konfuciuz', serif;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#selected {
+    color: #eb1c24;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    display: block;
+    max-height: 200px;
+    position: relative;
+}
+
+h1 {
+    font-family: Konfuciuz;
+    font-size: 15pt;
+    position: absolute;
+    width: 100%;
+    text-align: justify;
+    line-height: 15px;
+    padding: 0 10px;
+}
+
+#h1_1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#h1_2 {
+    margin-left: -60px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.left_wrapper {
+    display: inline-block;
+    width: 127px;
+    margin:0;
+}
+
+
+.right_wrapper1 {
+     display: inline-block;
+     width: 127px;
+     margin:0;
+ }
+
+.octa_picture {
+    margin-left: 1px;
+    padding: 0;
+    position: absolute;
+}
+
+#gojulogo {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#content_left {
+     top: 50px;
+ }
+
+#content_left2 {
+    top: 57px;
+}
+
+#content_right2 {
+    top: 57px;
+}
+
+#content_right {
+    top: 50px;
+}
+
+#content_center {
+    top: 250px;
+}
+
+#pic_sensei1 {
+    margin-bottom: 125px;
+    margin-left: 60px;
+    margin-top: 0;
+}
+
+#pic_sensei3 {
+    margin-bottom: 5px;
+    margin-left: 60px;
+    margin-top: 0;
+}
+
+#pic_sensei2 {
+    margin-top:0px;
+    margin-left:-65px;
+    margin-bottom:125px;
+}
+
+#pic_sensei4 {
+    margin-top:0px;
+    margin-left:-65px;
+    margin-bottom:5px;
+}
+
+#about_sensei1 {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#about_sensei3 {
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#about_sensei2 {
+    margin-bottom: 20px;
+    margin-left: -45px;
+    margin-top: 50px;
+}
+
+#about_sensei4 {
+    margin-top:5px;
+    margin-left: -45px;
+    margin-bottom:5px;
+}
+
+#pic_logo {
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-top: 25px;
+}
+
+footer {
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+#footer_holder {
+    color: white;
+    display: inline-flex;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#footer_holder p {
+    width: 33.3%;
+    font-size:10pt;
+    line-height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #eb1c24;
+    text-decoration: none;
+
+}

@@ -1,5 +1,5 @@
 /**
- * Created by linas on 5/26/15.
+ * Created by x.debeselis on 2015-05-28.
  */
 $(document).ready(function () {
 
@@ -8,7 +8,7 @@ $(document).ready(function () {
     function changeWhite() {
         $("#header").animate({backgroundColor: '#FFFFFF'},1000);
         $("#footer").animate({backgroundColor: '#FFFFFF'},1000, function(){
-            window.location.href = "http://www.google.com";
+            window.location.href = "Subpages/Home.html";
         });
     }
 
