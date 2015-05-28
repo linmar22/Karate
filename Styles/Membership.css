@@ -47,6 +47,10 @@ body {
     position: relative;
 }
 
+#content_center {
+    margin-top: 100px;
+
+}
 h1 {
     position: absolute;
     width: 100%;
@@ -62,6 +66,7 @@ h1 {
 }
 
 .octa_wrapper {
+    cursor:pointer;
     display: block;
     width: 127px;
     margin:0;
@@ -80,15 +85,16 @@ h1 {
 }
 
 #octa_prices {
+
     margin-top:5px;
     margin-bottom:5px;
 }
 
-    #octa_apply {
+#octa_apply {
+
     margin-top:5px;
     margin-bottom:5px;
 }
-
 
 #info_table {
     visibility: hidden;
@@ -197,10 +203,7 @@ h2 {
 }
 
 
-#content_center {
-    margin-top: 100px;
 
-}
 
 footer {
     background-color: #000000;
