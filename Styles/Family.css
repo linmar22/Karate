@@ -57,13 +57,13 @@ h1 {
     padding: 0 10px;
 }
 
-#h1_1 {
+.h1_1 {
     margin-left: 30px;
     margin-top: 10px;
     text-align: left;
 }
 
-#h1_2 {
+.h1_2 {
     margin-left: -60px;
     margin-top: 10px;
     text-align: right;
