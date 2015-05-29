@@ -15,12 +15,12 @@ $(document).ready(function (e) {
         var str = "";
         var attr = $("#info_table").css("display");
 
-        var text1 = "Exercise";
-        var text2 = "Non-violent";
-        var text3 = "Concentration";
-        var text4 = "Health";
-        var text5 = "Fun";
-        var text6 = "Stamina";
+        var text1 = "Exercise. We encourage young people and elder ones to exercise more. Our teachers at Dyssengard Karate Club will make sure you stay fit!";
+        var text2 = "Non-violent. We don't propagate violence within this martial art, as might be mistaken when they hear about Karate, or watch Jackie Chan movies. With us - everyone can feel safe";
+        var text3 = "Concentration. Karate requires you to really focus your mind. This way you learn to feel what is around you and maintain ability to a quick response, beneficial in danger situations. ";
+        var text4 = "Health. Staying active and becoming strong really helps you to live a healthier life.";
+        var text5 = "Fun. Of course, despite the other things, Karate is super fun to know and try. Once you're a member of a club, you're a part of the family.";
+        var text6 = "Stamina. Karate is challenging, but never give up and you will see how your stamina will increase. If you believe in yourself, You'll become not only physically, but also spiritually unbreakable.";
 
 
         if(attr==="none"){

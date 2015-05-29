@@ -89,6 +89,14 @@ body {
     margin:0;
     line-height: normal;
 }
+
+#table_paragraph {
+    font-size: 10pt;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 h1 {
     text-align: center;
     position: absolute;

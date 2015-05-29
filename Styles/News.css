@@ -58,6 +58,30 @@ body {
     line-height: normal;
 }
 
+#table_paragraph {
+    font-size: 10pt;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-style: italic;
+}
+#table_paragraph2 {
+    font-size: 10pt;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-style: italic;
+}#table_paragraph3 {
+     font-size: 10pt;
+     font-family: Helvetica;
+     font-weight: lighter;
+     font-style: italic;
+ }#table_paragraph4 {
+      font-size: 10pt;
+      font-family: Helvetica;
+      font-weight: lighter;
+      font-style: italic;
+  }
+
+
 #table_news1 {
     margin-top: 100px;
     display: inline-block;
