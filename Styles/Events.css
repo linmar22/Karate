@@ -5,9 +5,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 /* ================================================== */
 
 html {
-    background-image: url("../Images/Events.png");
     background-color: white;
-    background-size: cover;
 }
 
 body {
@@ -46,6 +44,62 @@ body {
     /*border: 1px solid red;*/
     display: block;
     max-height: 200px;
+    position: relative;
+}
+
+#content_left {
+    top: 50px;
+    left: 40px;
+}
+
+.octa_wrapper {
+    display: inline-block;
+    width: 127px;
+    margin:0;
+}
+
+#event1 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#event2 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#event3 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#event4 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+h1, h2{
+    font-family: 'Konfuciuz';
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    width: 127px;
+    line-height: 90px;
+    font-size: 18pt;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 25px;
+    color: red;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.border {
     position: relative;
 }
 
