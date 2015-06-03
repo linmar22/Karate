@@ -8,7 +8,7 @@ $(document).ready(function () {
     function changeWhite() {
         $("#header").animate({backgroundColor: '#FFFFFF'},1000);
         $("#footer").animate({backgroundColor: '#FFFFFF'},1000, function(){
-            window.location.href = "Subpages/Home.html";
+            window.location.href = "../Subpages/Homepage.html";
         });
     }
 
