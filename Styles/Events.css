@@ -52,16 +52,27 @@ body {
     left: 40px;
 }
 
+#content_right {
+    top: 50px;
+    left: 40px;
+}
+
 .octa_wrapper {
+     display: inline-block;
+     width: 127px;
+     margin:0;
+ }
+
+.text_wrapper {
     display: inline-block;
-    width: 127px;
+    width: 454px;
     margin:0;
 }
 
 #event1 {
-    margin-top:5px;
-    margin-bottom:5px;
-}
+     margin-top:5px;
+     margin-bottom:5px;
+ }
 
 #event2 {
     margin-top:5px;
@@ -74,6 +85,26 @@ body {
 }
 
 #event4 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#text1 {
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+#text2 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#text3 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#text4 {
     margin-top:5px;
     margin-bottom:5px;
 }

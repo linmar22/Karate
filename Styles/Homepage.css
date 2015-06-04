@@ -52,13 +52,334 @@ body {
 #content {
     width: 960px;
     margin: 0 auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: block;
     max-height: 200px;
     position: relative;
 }
 
+#countries {
+    top: 10px;
+}
+
+#left {
+    top: 270px;
+    right: 30px;
+}
+
+#left1 {
+    top: 200px;
+}
+
+#left2 {
+    top: 165px;
+}
+
+#center {
+    top: 100px;
+}
+
+#center2 {
+    top: 70px;
+}
+
+#center3 {
+    top: 90px;
+}
+
+#center4 {
+    top: 40px;
+}
+
+#right {
+    top: 65px;
+}
+
+#right2 {
+    top: 182px;
+}
+
+#right3 {
+    top: 250px;
+}
+
+#austria {
+    margin:0;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+
+}
+
+#austria:hover{
+    margin:0;
+    filter: none;
+    -webkit-filter: none;
+}
+
+#belgium {
+    margin-left: 23px;
+    margin-top: -16px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#belgium:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#bulgaria {
+    margin-left: 56px;
+    margin-top: -35px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#bulgaria:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#czech {
+    margin-left: -2px;
+    margin-top: 38px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#czech:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#denmark {
+    margin-left: -35px;
+    margin-top: 25px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#denmark:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#england {
+    margin-left: -8px;
+    margin-top: 15px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#england:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#finland {
+    margin-left: 61px;
+    margin-top: -15px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#finland:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#france {
+    margin-left: -29px;
+    margin-top: 58px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#france:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#germany {
+    margin-left: -2px;
+    margin-top: 10px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#germany:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#hungary {
+    margin-left: -9px;
+    margin-top: 70px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#hungary:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#iceland {
+    margin-left: 23px;
+    margin-top: 9px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#iceland:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#italy {
+    margin-left: -6px;
+    margin-top: 11px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#italy:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#netherlands {
+    margin-left: 23px;
+    margin-top: 10px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#netherlands:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#norway {
+    margin-left: -10px;
+    margin-top: 11px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#norway:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#poland {
+    margin-left: 21px;
+    margin-top: 11px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#poland:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#portugal {
+    margin-left: 75px;
+    margin-top: 11px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#portugal:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#romania {
+    margin-left: 7px;
+    margin-top: -4px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#romania:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#scotland {
+    margin-left: 11px;
+    margin-top: 0;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#scotland:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#slovakia {
+    margin-left: 75px;
+    margin-top: -3px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#slovakia:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#spain {
+    margin-left: 35px;
+    margin-top: 5px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+#spain:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#sweden {
+    margin-left: -30px;
+    margin-top: 12px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+
+#sweden:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
 footer {
+    z-index: 1001;
     background-color: #000000;
     height: 50px;
     width: 100%;
